@@ -1,0 +1,22 @@
+[
+    { "id": 1, "nombre": "Brushes", "precio": 45.00, "imagen": "pinceles.png" },
+    { "id": 2, "nombre": "Watercolor Set", "precio": 120.00, "imagen": "acuarelas.png" },
+    { "id": 3, "nombre": "Medium Canvas", "precio": 87.00, "imagen": "lienzo_mediano.png" },
+    { "id": 4, "nombre": "Oil Paints", "precio": 150.00, "imagen": "oleos.png" },
+    { "id": 5, "nombre": "Easel", "precio": 300.00, "imagen": "caballetes.png" },
+    { "id": 6, "nombre": "India Ink", "precio": 62.00, "imagen": "tinta_china.png" },
+    { "id": 7, "nombre": "Charcoal", "precio": 35.00, "imagen": "carboncillo.png" },
+    { "id": 8, "nombre": "Markers", "precio": 90.00, "imagen": "marcadores.png" },
+    { "id": 9, "nombre": "Sketchbook", "precio": 55.00, "imagen": "sketchbook.png" },
+    { "id": 10, "nombre": "Eraser", "precio": 10.00, "imagen": "goma_borrar.png" },
+    { "id": 11, "nombre": "Ink Pens", "precio": 70.00, "imagen": "boligrafos.png" },
+    { "id": 12, "nombre": "Precision Cutter", "precio": 43.00, "imagen": "cutter.jpeg" },
+    { "id": 13, "nombre": "Soft Pastels", "precio": 110.00, "imagen": "pasteles.png" },
+    { "id": 14, "nombre": "Acrylic Set", "precio": 130.00, "imagen": "acrilicos.png" },
+    { "id": 15, "nombre": "Geometry Set", "precio": 25.00, "imagen": "reglas.png" },
+    { "id": 16, "nombre": "Mixing Palette", "precio": 20.00, "imagen": "paleta_mezclas.png" },
+    { "id": 17, "nombre": "Fixative Spray", "precio": 85.00, "imagen": "spray_fijador.png" },
+    { "id": 18, "nombre": "Technical Mechanical Pencil", "precio": 95.00, "imagen": "portaminas.png" },
+    { "id": 19, "nombre": "Glue Stick", "precio": 22.00, "imagen": "pegamento.png" },
+    { "id": 20, "nombre": "Storage Box", "precio": 200.00, "imagen": "caja_almacenamiento.png" }
+]

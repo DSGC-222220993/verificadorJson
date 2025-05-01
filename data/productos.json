@@ -1,0 +1,22 @@
+[
+    { "id": 1, "nombre": "Pinceles", "precio": 45.00, "imagen": "pinceles.png" },
+    { "id": 2, "nombre": "Set de acuarelas", "precio": 120.00, "imagen": "acuarelas.png" },
+    { "id": 3, "nombre": "Lienzo Mediano", "precio": 87.00, "imagen": "lienzo_mediano.png" },
+    { "id": 4, "nombre": "Óleos", "precio": 150.00, "imagen": "oleos.png" },
+    { "id": 5, "nombre": "Caballete", "precio": 300.00, "imagen": "caballetes.png" },
+    { "id": 6, "nombre": "Tinta China", "precio": 62.00, "imagen": "tinta_china.png" },
+    { "id": 7, "nombre": "Carboncillo", "precio": 35.00, "imagen": "carboncillo.png" },
+    { "id": 8, "nombre": "Marcadores", "precio": 90.00, "imagen": "marcadores.png" },
+    { "id": 9, "nombre": "Sketchbook", "precio": 55.00, "imagen": "sketchbook.png" },
+    { "id": 10, "nombre": "Goma de Borrar", "precio": 10.00, "imagen": "goma_borrar.png" },
+    { "id": 11, "nombre": "Lapiceros de Tinta", "precio": 70.00, "imagen": "boligrafos.png" },
+    { "id": 12, "nombre": "Cúter de Precisión", "precio": 43.00, "imagen": "cutter.jpeg" },
+    { "id": 13, "nombre": "Pasteles Secos", "precio": 110.00, "imagen": "pasteles.png" },
+    { "id": 14, "nombre": "Set de Acrílicos", "precio": 130.00, "imagen": "acrilicos.png" },
+    { "id": 15, "nombre": "Juego geometrico", "precio": 25.00, "imagen": "reglas.png" },
+    { "id": 16, "nombre": "Paleta de Mezclas", "precio": 20.00, "imagen": "paleta_mezclas.png" },
+    { "id": 17, "nombre": "Spray Fijador", "precio": 85.00, "imagen": "spray_fijador.png" },
+    { "id": 18, "nombre": "Portaminas Técnico", "precio": 95.00, "imagen": "portaminas.png" },
+    { "id": 19, "nombre": "Pegamento en barra", "precio": 22.00, "imagen": "pegamento.png" },
+    { "id": 20, "nombre": "Caja de Almacenamiento", "precio": 200.00, "imagen": "caja_almacenamiento.png" }
+]

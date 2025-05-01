@@ -1,0 +1,155 @@
+/* Variables y modo oscuro */
+
+:root {
+    --color-fondo: rgb(207, 175, 212);
+    --color-texto: #232324;
+    --color-toggle: #4caf50;
+    --color-bola: #5c5a54;
+}
+
+.darkmode {
+    --color-fondo: #232324;
+    --color-texto: aliceblue;
+    --color-toggle: #596aa8;
+    --color-bola: white;
+}
+
+/* styles generales */
+
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+/* Layout principal */
+
+#div-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    position: relative;
+}
+
+.div-abajo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#div-barcode,
+#respuesta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-toggles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Imagenes laterales superiores */
+
+#img-florizq,
+#img-florder {
+    position: absolute;
+    top: 0;
+}
+
+#img-florizq {
+    left: 0;
+}
+
+#img-florder {
+    right: 0;
+}
+
+/* Toggle Switch */
+
+#img-mx,
+#img-sol {
+    padding-right: 15px;
+}
+
+#toggle-idioma,
+#toggle-mode {
+    margin: 1px;
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s;
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 2px;
+    background-color: var(--color-bola);
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.toggle-switch input:checked + .slider {
+    background-color: var(--color-toggle);
+}
+
+.toggle-switch input:checked + .slider::before {
+    transform: translateX(26px);
+}
+
+/* Elementos visuales */
+
+.titulo-tienda {
+    font-size: 5em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#busqueda {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 1em;
+}
+
+#fecha-hora {
+    background-color: rgba(95, 43, 43, 0.271);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: semi-bold;
+    font-size: 1.2em;
+    color: white;
+    text-align: left;
+    width: fit-content;
+}
