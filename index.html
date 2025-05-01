@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Verificador de Precios json</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <!-- Funciones json -->
+  <script src="./js/functionjson.js" defer></script>
+
+  <!-- Script para mostrar u ocultar el nombre de la tienda -->
+  <script defer>
+    document.addEventListener("DOMContentLoaded", () => {
+      const input = document.getElementById("busqueda");
+      const nombreTienda = document.getElementById("nombreTienda");
+
+      input.addEventListener("input", () => {
+        nombreTienda.style.display = input.value.trim() !== "" ? "none" : "block";
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <!-- ========== CONTENEDOR PRINCIPAL ========= -->
+  <div id="div-flex">
+
+    <!-- ========== IMG FLORIZQ ========== -->
+    <div id="img-florizq">
+      <img src="./img/florizq.png" alt="florizq" />
+    </div>
+
+    <!-- ========== CENTRO DE ESCANEO ========== -->
+    <div id="div-barcode">
+
+      <!-- Nombre de la tienda (centrado y visible si el input está vacío) -->
+      <div id="nombreTienda" class="titulo-tienda">❀ Tienda de Arte ❀</div>
+
+      <!-- Imagen del código de barras y resultado -->
+      <p id="respuesta">
+        <img src="./img/barcode.gif" alt="Escaneo" width="100%" height="80%" />
+        <span id="titulo-CodigoBarras">Código de barras</span>
+      </p>
+
+      <!-- Campo de búsqueda (para escanear o ingresar código sin mouse) -->
+      <input 
+        type="text" 
+        id="busqueda" 
+        placeholder="Buscar producto..." 
+        autofocus />
+    </div>
+
+    <!-- ========== IMG FLORDER ========== -->
+    <div id="img-florder">
+      <img src="./img/florder.png" alt="florder" />
+    </div>
+  </div>
+
+  <!-- ========== PIE DE PÁGINA ========= -->
+  <div class="div-abajo">
+
+    <!-- Fecha y hora -->
+    <p id="fecha-hora"></p>
+
+    <!-- Controles de idioma y modo oscuro -->
+    <div id="div-toggles">
+
+      <!-- Banderas -->
+      <div class="div-abajo">
+        <img src="./img/mx.png" alt="Español" id="img-mx" />
+        <img src="./img/usa.png" alt="English" id="img-usa" />
+      </div>
+
+      <!-- Toggle de idioma -->
+      <label class="toggle-switch" id="toggle-idioma">
+        <input type="checkbox" onclick="toggleIdioma()" />
+        <span class="slider"></span>
+      </label>
+
+      <!-- Íconos de sol/luna -->
+      <div class="div-abajo">
+        <img src="./img/sol.png" alt="Modo claro" id="img-sol" />
+        <img src="./img/luna.png" alt="Modo oscuro" />
+      </div>
+
+      <!-- Toggle de modo oscuro -->
+      <label class="toggle-switch" id="toggle-mode">
+        <input type="checkbox" onclick="toggleDarkMode()" />
+        <span class="slider"></span>
+      </label>
+    </div>
+  </div>
+</body>
+
+</html>
